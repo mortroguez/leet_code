@@ -7,4 +7,6 @@ func main() {
 	startLongestSubstring()
 	// 3 - Palindrome
 	startPalindrome()
+	// 4 - Array intersection
+	startArrayIntersection()
 }
