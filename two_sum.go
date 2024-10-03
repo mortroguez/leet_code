@@ -22,7 +22,7 @@ import "strconv"
 // target := 6
 // output [0,2]
 
-func startTwoSum() {
+func StartTwoSum() {
 	// 1 - Two sums
 	nums := []int{3, 2, 3}
 	target := 6

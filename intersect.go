@@ -10,9 +10,9 @@ package main
 // Output: [4,9]
 // Explanation: [9,4] is also accepted.
 
-func startArrayIntersection() {
-	nums1 := []int{1,2,2,1}
-	nums2 := []int{2,2}
+func StartArrayIntersection() {
+	nums1 := []int{1, 2, 2, 1}
+	nums2 := []int{2, 2}
 
 	intersect(nums1, nums2)
 }

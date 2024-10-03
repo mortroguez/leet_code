@@ -32,7 +32,7 @@ import (
 // input: s = "dvdf"
 // output: 3
 
-func startLongestSubstring() {
+func StartLongestSubstring() {
 	input := "dvdf"
 
 	response := lengthOfLongestSubstring(input)
@@ -40,19 +40,19 @@ func startLongestSubstring() {
 	println("The longest substring is: " + strconv.Itoa(response))
 }
 
-func lengthOfLongestSubstring(s string) int {	
+func lengthOfLongestSubstring(s string) int {
 	charMap := make(map[rune]int)
 	longest := 0
 	start := 0
 
 	for i, char := range s {
-		
+
 		if lastIndex, found := charMap[char]; found && lastIndex >= start {
 			start = lastIndex + 1
 		}
-		
+
 		charMap[char] = i
-	
+
 		currentLength := i - start + 1
 		if currentLength > longest {
 			longest = currentLength

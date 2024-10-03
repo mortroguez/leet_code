@@ -16,7 +16,7 @@ package main
 // Output: false
 // Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
-func startPalindrome() {
+func StartPalindrome() {
 	input := 121
 
 	print(isPalindrome(input))

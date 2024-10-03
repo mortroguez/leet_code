@@ -2,11 +2,13 @@ package main
 
 func main() {
 	// 1 - Two sum
-	startTwoSum()
+	StartTwoSum()
 	// 2 - Longest substring
-	startLongestSubstring()
+	StartLongestSubstring()
 	// 3 - Palindrome
-	startPalindrome()
+	StartPalindrome()
 	// 4 - Array intersection
-	startArrayIntersection()
+	StartArrayIntersection()
+	// 5 - Longest prefix
+	StartLongestPrefix()
 }
