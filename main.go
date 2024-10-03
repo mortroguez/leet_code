@@ -5,4 +5,6 @@ func main() {
 	startTwoSum()
 	// 2 - Longest substring
 	startLongestSubstring()
+	// 3 - Palindrome
+	startPalindrome()
 }
