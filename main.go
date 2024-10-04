@@ -11,4 +11,6 @@ func main() {
 	StartArrayIntersection()
 	// 5 - Longest prefix
 	StartLongestPrefix()
+	// 6 - Valid Parentheses
+	StartValidParentheses()
 }
